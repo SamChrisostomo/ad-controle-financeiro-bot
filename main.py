@@ -1,8 +1,4 @@
-from ad_controle_financeiro_bot.telegramBot import TelegramBot
-from ad_controle_financeiro_bot.driveBot import DriveBot
+from ad_controle_financeiro_bot.TelegramBot import TelegramBot
 
-#bot = TelegramBot()
-#bot.start()
-
-driveBot = DriveBot()
-print(driveBot.get_data())
+app = TelegramBot()
+app.start()
